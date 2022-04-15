@@ -1,0 +1,22 @@
+*{
+    padding:0%;
+    margin:0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+
+    justify-content: end;
+}
+.logo{
+    margin-right: 160vh;
+    color: white
+}
+.intro{
+    background-image: url(../assets/street.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+
