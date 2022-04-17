@@ -19,4 +19,9 @@
     background-size: cover;
     height:100vh;
 }
-
+p{
+    color: white;
+}
+h1{
+    text-align: center;
+}
