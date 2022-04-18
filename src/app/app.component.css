@@ -3,17 +3,19 @@
     display: flex;
 
     justify-content: end;
+  color:white;
+  
 }
 .logo{
     margin-right: 160vh;
     color: white
 }
 .intro{
-    background-image: url(../assets/moon.webp);
+    background-image: url(../assets/woman2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:120vh;
+    height:140vh;
 }
 p{
     color: white;
@@ -21,12 +23,15 @@ p{
 h1{
     text-align: center;
     color: white;
+    font-size: 25px;
    
 }
 .help{
     text-align: center;
-    margin-top: 2vh;
-    font-size: 8vh;
+    margin-top: 15vh;
+    font-size: 7vh;
+    font-family:'sans-serif';
+    margin-bottom: 5vh;
     
 }
 .user{
@@ -74,4 +79,16 @@ h2{
 }
 .greener{
     color: green;
+}
+a{
+    color:white;
+    
+}
+.me{
+    height:35vh;
+    border-radius: 100%;
+    margin-left: 80vh;
+    opacity: .90;
+    width:35vh;
+    margin-top: 12vh;
 }

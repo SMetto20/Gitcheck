@@ -10,13 +10,15 @@ import { UsersComponent } from './components/users/users.component';
 import { AboutComponent } from './components/about/about.component';
 import { AdminModule } from './admin/admin.module';
 import { PipePipe } from './pipes/pipe.pipe';
+import { GoodDirective } from './directives/good.directive';
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
     FormsComponent,
     AboutComponent,
-    PipePipe
+    PipePipe,
+    GoodDirective
     
   ],
   imports: [

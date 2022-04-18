@@ -7,7 +7,7 @@ p{
 }
 .form{
     height: 90vh;
-    background-image: url(/assets/moon3.jpg);
+    background-image: url(/assets/man.webp);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -31,4 +31,7 @@ p{
     background-color: green;
     color: white;
     border: none;
+}
+.description{
+    color: black;
 }
