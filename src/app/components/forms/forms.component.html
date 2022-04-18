@@ -1,10 +1,17 @@
-<form (ngSubmit)="nameCheck(submitForm)" (ngSubmit)="repoCheck(submitForm)" #submitForm="ngForm">
-    <input placeholder="enter a user name" type="text" name="username" ngModel>
+
+<div class ="form">
+    <p>Search for a github user</p>
+    <div class="form2">
+<form (ngSubmit)="nameCheck(submitForm)" (ngSubmit)="repoCheck(submitForm)" #submitForm="ngForm" class="input">
+    <input placeholder="search" type="text" name="username" ngModel>
     <button >Submit</button>
     <!-- <p> your username is{{username}}</p> -->
   </form>
+    </div>
+  </div>
   <ul *ngFor="let user of users">
       <li>{{user.name}}</li>
   </ul>
+  
   
  

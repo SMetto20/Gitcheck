@@ -1,0 +1,20 @@
+p{
+   position: absolute;
+    margin-top: 10vh;
+    font-size: 37px;
+    color:white;
+    margin-left: 40%;
+}
+.form{
+    height: 90vh;
+    background-image: url(/assets/moon3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.form2{
+    position:absolute;
+    margin-left: 42%;
+    margin-top:25%;
+}
