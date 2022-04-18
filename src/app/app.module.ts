@@ -7,8 +7,8 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { FormsComponent } from './components/forms/forms.component';
 import { UsersComponent } from './components/users/users.component';
-import { AboutComponent } from './about/about.component';
-
+import { AboutComponent } from './components/about/about.component';
+import { AdminModule } from './admin/admin.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +21,8 @@ import { AboutComponent } from './about/about.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AdminModule
   ],
   providers: [],
   bootstrap: [AppComponent]
