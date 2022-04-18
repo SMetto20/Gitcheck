@@ -9,12 +9,14 @@ import { FormsComponent } from './components/forms/forms.component';
 import { UsersComponent } from './components/users/users.component';
 import { AboutComponent } from './components/about/about.component';
 import { AdminModule } from './admin/admin.module';
+import { PipePipe } from './pipes/pipe.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     UsersComponent,
     FormsComponent,
-    AboutComponent
+    AboutComponent,
+    PipePipe
     
   ],
   imports: [

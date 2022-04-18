@@ -1,3 +1,29 @@
 .repo{
+    text-align:left;
+}
+.list{
+    margin-left: 18vh;
+}
+img{
+    height:44vh;
+    border-radius: 50%;
+    margin-left: 20vh;
+}
+h2{
+    text-align:center;
+    
+}
+h4{
     text-align: center;
+    margin-top: 10vh;
+    font-size: 30px;
+}
+.about{
+    color: white;
+    /* background-color: black; */
+    height: 60vh;
+    
+}
+.prof{
+    margin-left: 10vh;
 }

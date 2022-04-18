@@ -13,7 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height:120vh;
 }
 p{
     color: white;
@@ -25,8 +25,9 @@ h1{
 }
 .help{
     text-align: center;
-    margin-top: 15vh;
-    font-size: 15vh;
+    margin-top: 2vh;
+    font-size: 8vh;
+    
 }
 .user{
     text-align:left;
@@ -40,6 +41,7 @@ h1{
     color: white;
     font-size: 22px;
     margin-left: 50vh;
+    margin-bottom: 8vh;
 }
 /* .git{
     display: flex;
