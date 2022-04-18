@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { GithubserviceService } from 'src/app/service/github.service';
+
 @Component({
   selector: 'app-forms',
   templateUrl: './forms.component.html',

@@ -1,8 +1,4 @@
-*{
-    padding:0%;
-    margin:0;
-    box-sizing: border-box;
-}
+
 .nav{
     display: flex;
 
@@ -13,7 +9,7 @@
     color: white
 }
 .intro{
-    background-image: url(../assets/street.webp);
+    background-image: url(../assets/moon.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,4 +20,50 @@ p{
 }
 h1{
     text-align: center;
+    color: white;
+   
+}
+.help{
+    text-align: center;
+    margin-top: 15vh;
+    font-size: 15vh;
+}
+.user{
+    text-align:left;
+    margin-left:20vh;
+    font-size: 60px;
+    padding: 5vh;
+    color:white
+}
+.below{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-left: 50vh;
+}
+/* .git{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vh;
+} */
+img{
+    width: 60vh;
+    height: 30vh;
+    position: absolute;
+    margin-left: 80vh;
+    margin-top: 8vh;
+}
+.name{
+    color:white;
+    position: absolute;
+    margin-top: 5vh;
+}
+.black{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+h2{
+    color:white;
 }
