@@ -1,5 +1,4 @@
-<!-- <h2>what we do</h2> -->
-<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates doloribus recusandae quo fugit quia, itaque consequuntur illum iure nostrum.</p> -->
+
 <div class ="form">
    
     <div class="form2">
@@ -7,12 +6,12 @@
 <form (ngSubmit)="nameCheck(submitForm)" (ngSubmit)="repoCheck(submitForm)" #submitForm="ngForm" >
     <input class="input" placeholder="search" type="text" name="username" ngModel  ><br>
     <button class="submit" >Submit</button>
-    <!-- <p> your username is{{username}}</p> -->
+    
   </form>
     </div>
   </div>
   <div class= "display">
-  <h3>User:{{users.login}}</h3>
+  <!-- <h3>User:{{users.login}}</h3> -->
   
   <h2 class="description">{{repository|pipe}}</h2>
   <div class="center">

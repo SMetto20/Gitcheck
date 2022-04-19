@@ -1,36 +1,34 @@
 p{
    position: absolute;
    
-    font-size: 20px;
+    font-size: 25px;
     color:black;
     margin-left: 30%;
     font-weight: bold;
 }
 .form{
-    height: 100vh;
-    /* background-image: url(/assets/beard.jpg); */
+    height: 40vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    /* background-color: rgb(78, 76, 76); */
+    
    
     
 }
 .form2{
     position:absolute;
-    margin-left: 70vh;
-    margin-top:20vh;
-    /* background-color: rgb(178, 176, 175); */
+    margin-left: 60vh;
+    margin-top:5vh;
     height:50vh;
     width: 60vh;
-    /* opacity: .50; */
     border-radius: 8px;
-    /* background-image: url(/assets/city.jpg); */
+    
 }
 .input{
     border-radius: 5px;
     margin-top: 10vh;
     margin-left: 20vh;
+    height: 5vh;
     
 }
 .submit{
@@ -42,20 +40,22 @@ p{
     background-color: green;
     color: white;
     border: none;
+    margin-left: 30vh;
 }
 .description{
-    color: black;
+    color: white;
 }
 h2 {
     text-align:center;
 }
 .display{
     background-image: url(/assets/beard.jpg);
+    height:100vh;
 
 }
 .center{
     
- margin-left: 60vh;
+ margin-left: 80vh;
  color: white;
 }
 h3{color:white;
