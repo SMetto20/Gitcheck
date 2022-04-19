@@ -5,7 +5,7 @@ import { Directive, ElementRef } from '@angular/core';
 })
 export class GoodDirective {
   constructor( private highlight:ElementRef) { 
-    highlight.nativeElement.style.backgroundColor = "crimson"
+    highlight.nativeElement.style.color = "green"
   }
 
   
