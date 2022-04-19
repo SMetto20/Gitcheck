@@ -1,5 +1,6 @@
 .repo{
     text-align:center;
+    margin-left: 5vh;
 
 }
 .list{
@@ -8,7 +9,8 @@
 img{
     height:46vh;
     border-radius: 50%;
-    margin-left: 25vh;
+    margin-left: 10vh;
+    margin-right: 0vh;
 }
 h2{
     text-align:center;
@@ -43,12 +45,18 @@ h1{
 }
 .lorem{
     text-align: center;
-    color: silver;
-    font-size: 18px;
+    color:white;
+    font-size: 22px;
+    margin-left: 10vh;
 }
 .p{
     text-align: center;
 }
 .profile{
+    margin-left: 30vh;
+}
+.move{
+    position:absolute;
+    margin-top: 60vh;
     margin-left: 30vh;
 }

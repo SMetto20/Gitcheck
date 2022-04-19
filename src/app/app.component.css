@@ -1,14 +1,17 @@
 
 .nav{
-    display: flex;
+    /* display: flex; */
 
-    justify-content: end;
+    /* justify-content: end; */
   color:white;
+ position: absolute;
+
   
 }
 .logo{
-    margin-right: 160vh;
-    color: white
+    margin-right: 20vh;
+    color: white;
+    
 }
 .intro{
     background-image: url(../assets/woman2.jpg);
@@ -28,10 +31,10 @@ h1{
 }
 .help{
     text-align: center;
-    margin-top: 15vh;
+    margin-top: 0vh;
     font-size: 7vh;
     font-family:'sans-serif';
-    margin-bottom: 5vh;
+    margin-bottom: 12vh;
     
 }
 .user{
@@ -82,6 +85,8 @@ h2{
 }
 a{
     color:white;
+    margin:2vh
+    
     
 }
 .me{
@@ -91,4 +96,12 @@ a{
     opacity: .90;
     width:35vh;
     margin-top: 12vh;
+}
+.move{
+    margin-left: 130vh;
+}
+.test{
+    position :absolute;
+    margin-top: 20vh;
+    margin-left: 80vh;
 }

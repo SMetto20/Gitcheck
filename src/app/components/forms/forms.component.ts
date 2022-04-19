@@ -13,16 +13,16 @@ export class FormsComponent implements OnInit {
   constructor(private githubservice:GithubserviceService) { }
   nameCheck(username:NgForm){
    
-    this.githubservice.getInfo(username.value.username).subscribe((data)=>{
-      console.log(data)
-      this.users = data
+    this.githubservice.getInfo(username.value.username).subscribe((res)=>{
+      console.log(res)
+      this.users = res
     })
   }
   repoCheck(username:NgForm){
     
-    this.githubservice.getRepo(username.value.username).subscribe((data)=>{
-      console.log(data)
-      this.users = data
+    this.githubservice.getRepo(username.value.username).subscribe((res)=>{
+      console.log(res)
+      this.users = res
     })
   }
  repository ="these are the"
