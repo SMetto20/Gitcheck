@@ -9,7 +9,7 @@ By Sandra Metto
 5. [Website](#Website)
 6. [About-author](#About-athor)
 ### Description
-This project allows users to search fro git hub users and firnd these users and their repositories
+This project allows users to search fro git hub users and find these users and their repositories
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 ### Technology
 1. Html
@@ -46,7 +46,7 @@ function(){
 2. Installation process
 
 ### Website
-[Website](https://quotify-kappa.vercel.app/)
+[Website](http://gitcheck.vercel.app//)
 ### License
 [MIT LICENSE](https://github.com/SMetto20/Gitcheck/blob/main/LICENSE)
 
