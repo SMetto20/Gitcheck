@@ -1,7 +1,9 @@
-
+<!-- <h2>what we do</h2> -->
+<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptates doloribus recusandae quo fugit quia, itaque consequuntur illum iure nostrum.</p> -->
 <div class ="form">
-    <p>Search for a github user</p>
+   
     <div class="form2">
+      <p>Search for a github user</p>
 <form (ngSubmit)="nameCheck(submitForm)" (ngSubmit)="repoCheck(submitForm)" #submitForm="ngForm" >
     <input class="input" placeholder="search" type="text" name="username" ngModel  ><br>
     <button class="submit" >Submit</button>
@@ -9,11 +11,16 @@
   </form>
     </div>
   </div>
-  <h3>{{users}}</h3>
+  <div class= "display">
+  <h3>User:{{users.login}}</h3>
+  
   <h2 class="description">{{repository|pipe}}</h2>
+  <div class="center">
   <ul *ngFor="let user of users">
       <li GoodDirective>{{user.name}}</li>
   </ul>
+  </div>
+  </div>
   
   
  
