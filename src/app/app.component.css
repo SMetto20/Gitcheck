@@ -9,16 +9,91 @@
   
 }
 .logo{
-    margin-right: 20vh;
-    color: white;
+   
+position: absolute;
+width: 155px;
+height: 29px;
+left: 98px;
+top: 50px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 29px;
+/* identical to box height */
+
+
+/* color: #BB9305; */
+color: white;
+
     
 }
 .intro{
-    background-image: url(../assets/woman2.jpg);
+    /* background-image: url(../assets/woman2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    position: relative;
+    width: 1516px;
+    height: 1058px;
+    
+    background: #0B0917;
     height:140vh;
+}
+.github{
+    position: absolute;
+width: 236px;
+height: 28px;
+left: 350px;
+top: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
+
+/* color: #BB9305; */
+color:white;
+}
+.currently{
+    position: absolute;
+width: 315px;
+height: 36px;
+left:600px;
+top: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height */
+
+
+/* color: #BB9305; */
+color:white
+
+
+}
+.Nairobi{
+    position: absolute;
+width: 226px;
+height: 36px;
+left: 900px;
+top: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height */
+
+
+/* color: #BB9305; */
+color:white;
 }
 p{
     color: white;
@@ -30,12 +105,54 @@ h1{
    
 }
 .help{
-    text-align: center;
-    margin-top: 0vh;
-    font-size: 7vh;
-    font-family:'sans-serif';
-    margin-bottom: 12vh;
     
+   
+    font-size: 20vh;
+    font-family:'poppins';
+    margin-bottom: 12vh;
+    position:absolute;
+    margin-top: 15vh;
+    margin-left: 46vh;
+    /* position: absolute;
+    width: 922px;
+    height: 123px;
+    left: 453px;
+    top: 189px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 192px;
+    
+    color: #FFFFFF; */
+}
+.design{
+    font-size: 18vh;
+    font-family:'poppins';
+    margin-bottom: 12vh;
+    position:absolute;
+    margin-top: 37vh;
+    margin-left: 55vh;
+}
+.search{
+    position: absolute;
+width: 226px;
+height: 36px;
+left: 1120px;
+top: 35px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 36px;
+/* identical to box height */
+
+
+/* color: #BB9305; */
+color: white;
+
 }
 .user{
     text-align:left;
@@ -56,12 +173,25 @@ h1{
     justify-content: space-around;
     margin-top: 10vh;
 } */
-img{
+
+
+/* img{
     width: 60vh;
     height: 30vh;
     position: absolute;
     margin-left: 80vh;
     margin-top: 8vh;
+} */
+img{
+    position: absolute;
+    width: 680px;
+    height: 580px;
+    left: 450px;
+    top: 240px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+  /* image-rendering: pixelated; */
+
 }
 .name{
     color:white;
@@ -100,8 +230,11 @@ a{
 .move{
     margin-left: 130vh;
 }
-.test{
+/* .test{
     position :absolute;
     margin-top: 20vh;
     margin-left: 80vh;
+} */
+.ui{
+    color: #BB9305;
 }

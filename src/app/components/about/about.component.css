@@ -4,7 +4,43 @@
 
 }
 .list{
-    margin-left: 18vh;
+    position: absolute;
+width: 308px;
+height: 38px;
+left: 350px;
+top: 525px;
+
+font-family: 'Poppins';
+font-style: normal;
+/* font-weight: 700; */
+font-size: 20px;
+line-height: 38px;
+/* identical to box height */
+
+
+color:white;
+}
+.repository{
+    position: absolute;
+    width: 308px;
+    height: 38px;
+    left: 350px;
+    top: 480px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+    
+    
+    color: #BB9305;
+    
+      
+    
+
+
 }
 img{
     height:46vh;
@@ -37,12 +73,12 @@ h1{
     text-align: center;
     color: white;
 }
-.repository{
+/* .repository{
    font-size: 15px;
    opacity: .90;
    margin-left: 90vh;
    margin-top:0vh;
-}
+} */
 .lorem{
     text-align: center;
     color:white;
