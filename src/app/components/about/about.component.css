@@ -1,98 +1,110 @@
-.repo{
-    text-align:center;
-    margin-left: 5vh;
+.repo {
+  text-align: center;
+  margin-left: 5vh;
 
 }
-.list{
-    position: absolute;
-width: 308px;
-height: 38px;
-left: 350px;
-top: 525px;
 
-font-family: 'Poppins';
-font-style: normal;
-/* font-weight: 700; */
-font-size: 20px;
-line-height: 38px;
-/* identical to box height */
+.list {
+  position: absolute;
+  width: 308px;
+  height: 38px;
+  left: 470px;
+  top: 630px;
 
-
-color:white;
-}
-.repository{
-    position: absolute;
-    width: 308px;
-    height: 38px;
-    left: 350px;
-    top: 480px;
-    
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 38px;
-    /* identical to box height */
-    
-    
-    color: #BB9305;
-    
-      
-    
+  font-family: 'Poppins';
+  font-style: normal;
+  /* font-weight: 700; */
+  font-size: 20px;
+  line-height: 38px;
+  /* identical to box height */
 
 
+  color: white;
 }
-img{
-    height:46vh;
-    border-radius: 50%;
-    margin-left: 10vh;
-    margin-right: 0vh;
+
+.repository {
+  position: absolute;
+  width: 308px;
+  height: 38px;
+  left: 470px;
+  top: 580px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
+
+
+  color: #BB9305;
+
+
+
+
+
 }
-h2{
-    text-align:center;
-    
+
+img {
+  height: 46vh;
+  border-radius: 50%;
+  margin-left: 10vh;
+  margin-right: 0vh;
 }
-h4{
-    text-align: center;
-    margin-top: 10vh;
-    font-size: 30px;
+
+h2 {
+  text-align: center;
+
 }
-.about{
-    color: silver;
-    /* background-color: black;
+
+h4 {
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 30px;
+}
+
+.about {
+  color: silver;
+  /* background-color: black;
     border: none; */
-    
-    height: 60vh;
-    margin-top: 10vh;
-    
+
+  height: 60vh;
+  margin-top: 10vh;
+
 }
-.prof{
-    margin-left: 15vh;
+
+.prof {
+  margin-left: 15vh;
 }
-h1{
-    text-align: center;
-    color: white;
+
+h1 {
+  text-align: center;
+  color: white;
 }
+
 /* .repository{
    font-size: 15px;
    opacity: .90;
    margin-left: 90vh;
    margin-top:0vh;
 } */
-.lorem{
-    text-align: center;
-    color:white;
-    font-size: 22px;
-    margin-left: 10vh;
+.lorem {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  margin-left: 10vh;
 }
-.p{
-    text-align: center;
+
+.p {
+  text-align: center;
 }
-.profile{
-    margin-left: 30vh;
+
+.profile {
+  margin-left: 30vh;
 }
-.move{
-    position:absolute;
-    margin-top: 60vh;
-    margin-left: 30vh;
+
+.move {
+  position: absolute;
+  margin-top: 60vh;
+  margin-left: 30vh;
 }

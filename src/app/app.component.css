@@ -13,7 +13,7 @@
 position: absolute;
 width: 155px;
 height: 29px;
-left: 98px;
+left: 200px;
 top: 50px;
 
 font-family: 'Inter';
@@ -46,7 +46,7 @@ color: white;
     position: absolute;
 width: 236px;
 height: 28px;
-left: 350px;
+left: 500px;
 top: 50px;
 
 font-family: 'Poppins';
@@ -62,7 +62,7 @@ color:white;
     position: absolute;
 width: 315px;
 height: 36px;
-left:600px;
+left:750px;
 top: 50px;
 
 font-family: 'Poppins';
@@ -82,7 +82,7 @@ color:white
     position: absolute;
 width: 226px;
 height: 36px;
-left: 900px;
+left: 1080px;
 top: 50px;
 
 font-family: 'Poppins';
@@ -140,7 +140,7 @@ h1{
     position: absolute;
 width: 226px;
 height: 36px;
-left: 1120px;
+left: 1320px;
 top: 35px;
 
 font-family: 'Poppins';
@@ -187,7 +187,7 @@ img{
     position: absolute;
     width: 680px;
     height: 580px;
-    left: 450px;
+    left: 600px;
     top: 240px;
     image-rendering: auto;
     image-rendering: crisp-edges;

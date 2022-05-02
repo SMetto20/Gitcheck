@@ -6,198 +6,237 @@
     margin-left: 30%;
     font-weight: bold;
 } */
-.form{
-    height: 40vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-   
-    
-}
-.form2{
-    position:absolute;
-    margin-left: 60vh;
-    margin-top:5vh;
-    height:50vh;
-    width: 60vh;
-    border-radius: 8px;
-    
-}
-.input{
-    position: absolute;
-width: 293px;
-height: 59px;
-left: 288px;
-top: 500px;
+.form {
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-background: #FFF9F9;
-border-radius: 8px;
-    
+
+
 }
-.submit{
-    border-radius:8px;
-    height:40px;
-    width: 80px;
-    background-color:#BB9305;
-    color: white;
-    border: none;
-    position: absolute;
-    left: 330px;
-top:600px;
-    
+
+.form2 {
+  position: absolute;
+  margin-left: 60vh;
+  margin-top: 5vh;
+  height: 50vh;
+  width: 60vh;
+  border-radius: 8px;
+
 }
-.description{
-    color: white;
-    position: absolute;
-    top:700px;
-    left: 500px;
+
+.input {
+  position: absolute;
+  width: 293px;
+  height: 59px;
+  left: 288px;
+  top: 500px;
+
+  background: #FFF9F9;
+  border-radius: 8px;
+
 }
+
+.submit {
+  border-radius: 8px;
+  height: 40px;
+  width: 80px;
+  background-color: #BB9305;
+  color: white;
+  border: none;
+  position: absolute;
+  left: 288px;
+  top: 600px;
+
+}
+
+.description {
+  color: white;
+  position: absolute;
+  top: 700px;
+  left: 700px;
+  font-size: 24px;
+}
+
 h2 {
-    text-align:center;
+  text-align: center;
 }
-.display{
-    background-image: url(/assets/beard.jpg);
-    height:100vh;
 
-}
-.center{
-    position:absolute;
-    top:760px;
- left: 80vh;
- color: white;
-}
-h3{color:white;
-    position:absolute
+.display {
+  background-image: url(/assets/beard.jpg);
+  height: 100vh;
 
 }
-.blue{
-position: relative;
-width: 100%;
-height: 1500px;
-top:80px;
-background: #0B0917;
+
+.center {
+  position: absolute;
+  top: 760px;
+  left: 80vh;
+  color: white;
 }
-.github{
-    position: absolute;
-width: 236px;
-height: 28px;
-left: 350px;
-top: 50px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 36px;
-
-color: white;
+h3 {
+  color: white;
+  position: absolute
 }
-.currently{
-    position: absolute;
-width: 315px;
-height: 36px;
-left:600px;
-top: 50px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height */
-
-color: white;
-
-
+.blue {
+  position: relative;
+  width: 100%;
+  height: 1500px;
+  top: 80px;
+  background: #0B0917;
 }
-.Nairobi{
-    position: absolute;
-width: 226px;
-height: 36px;
-left: 900px;
-top: 50px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 36px;
-/* identical to box height */
+.github {
+  position: absolute;
+  width: 236px;
+  height: 28px;
+  left: 500px;
+  top: 50px;
 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
 
-color: white;
+  color: white;
 }
-.logo{
-   
-    position: absolute;
-    width: 155px;
-    height: 29px;
-    left: 98px;
-    top: 50px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 29px;
-    /* identical to box height */
-    
-    
-    color: white;
-    
-        
-    }
-.lets{
-    position: absolute;
-width: 415px;
-height: 144px;
-left: 301px;
-top: 100px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 144px;
-/* identical to box height */
+.currently {
+  position: absolute;
+  width: 315px;
+  height: 36px;
+  left: 750px;
+  top: 50px;
 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height */
 
-color: #FFFFFF;
+  color: white;
 
 
 }
-.user{
 
-position: absolute;
-width: 634px;
-height: 144px;
-left: 288px;
-top: 350px;
+.Nairobi {
+  position: absolute;
+  width: 226px;
+  height: 36px;
+  left: 1080px;
+  top: 50px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 144px;
-/* identical to box height */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height */
 
 
-color: #FFFFFF;
+  color: white;
+}
+
+.logo {
+
+  position: absolute;
+  width: 155px;
+  height: 29px;
+  left: 200px;
+  top: 50px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height */
+
+
+  color: white;
+
 
 }
-img{
-    position: absolute;
-width: 698px;
-height: 550px;
-left: 720px;
-top: 100px;
+
+.search {
+  position: absolute;
+  width: 226px;
+  height: 36px;
+  left: 1320px;
+  top: 35px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height */
+
+
+  /* color: #BB9305; */
+  color: white;
 
 }
-.about{
-    text-align: center;
+
+.lets {
+  position: absolute;
+  width: 415px;
+  height: 144px;
+  left: 301px;
+  top: 230px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 144px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+
 }
-h1{
-    font-family: 'poppins';
-    font-weight: bold;
+
+.user {
+
+  position: absolute;
+  width: 634px;
+  height: 144px;
+  left: 288px;
+  top: 350px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 144px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+}
+
+img {
+  position: absolute;
+  width: 698px;
+  height: 550px;
+  left: 720px;
+  top: 100px;
+
+}
+
+.about {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'poppins';
+  font-weight: bold;
 }
